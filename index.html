@@ -2,12 +2,38 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>Intertwine Yourself</title>
+    <link rel="stylesheet" href="bower_components/pure/base-context.css"/>
+    <link rel="stylesheet" href="bower_components/pure/base.css"/>
+    <link rel="stylesheet" href="bower_components/pure/grids-core.css"/>
+    <link rel="stylesheet" href="bower_components/pure/grids.css"/>
+    <link rel="stylesheet" href="bower_components/pure/buttons-core.css"/>
+    <link rel="stylesheet" href="bower_components/pure/buttons.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
-<div id="container">
+<div class="container pure-g">
+    <div class="pure-u-1-1 logo">
+        <img src="assets/img/logo.png" alt=""/>
+    </div>
+    <div class="pure-u-1-1 settings">
+        <div class="pure-u-5-12">
+            <h2>Your Image</h2>
+            <input type="file" id="uploadBtn" class="pure-button pure-button-primary" value="upload" accept="image/*" />
+        </div>
+        <div class="pure-u-5-12">
+            <h2>Background color</h2>
+            <h5>Se non scelto ne verrà scelto uno random</h5>
+            <div id="colors"></div>
+        </div>
+    </div>
     <div id="message"></div>
-    <img id="output" src="http://jsrun.it/assets/h/J/h/2/hJh2o.png" alt=""/>
+    <img id="output" src="" alt=""/>
+    <div id="canvas-container" class="pure-u-1-1"></div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="bower_components/underscore/underscore-min.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>

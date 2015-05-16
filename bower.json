@@ -1,0 +1,26 @@
+{
+  "name": "triangularize",
+  "version": "0.9.9",
+  "homepage": "https://github.com/steoo/triangularize",
+  "authors": [
+    "Steoo <esseiproject@gmail.com>"
+  ],
+  "description": "triangularize photo in a cool way",
+  "main": "dist/app.js",
+  "keywords": [
+    "triangularize",
+    "canvas",
+    "photo"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pure": "~0.6.0"
+  }
+}

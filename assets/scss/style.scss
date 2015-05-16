@@ -1,0 +1,27 @@
+.logo, .settings, #canvas-container {
+  text-align: center;
+}
+.logo {
+  margin-top: 10px;
+  min-height: 100px;
+}
+#canvas-container {
+  margin-top: 50px;
+}
+.settings {
+   border: 1px solid #eee;
+  padding: 5px;
+}
+.block-color {
+  width: 40px;
+  height: 40px;
+  background-color: #eee;
+  border: 1px solid #333333;
+  border-radius: 1px;
+  display: inline-block;
+  margin-right: 5px;
+  cursor: pointer;
+  &.active {
+    border-color: #ffff00;
+  }
+}
